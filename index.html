@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap Mobile</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="assets/css/bootstrap-rtl.css" rel="stylesheet">
+        <!-- Main CSS -->
+        <link href="assets/css/style-rtl.css" rel="stylesheet">
+
+    </head>
+
+    <!-- add dir attribut to body tag -->
+    <!-- add has-navbar-top and has-navbar-bottom -->
+    <body class="has-navbar-top has-navbar-bottom" dir="rtl">
+
+        <!-- sidebar overlay -->
+        <div id="sidebar_overlay"></div>
+
+        <!-- BEGIN == sidebar with id -->
+        <div class="sidebar sidebar-left" id="side_navbar">
+
+            <div class="sidebar-header">
+                <!-- sidebar toggle button, data-target = sidebar id  -->
+                <a href="#" class="close-sidebar pull-right" data-toggle="sidebar" data-target="#side_navbar"><i class="glyphicon glyphicon-arrow-right"></i></a>
+                
+                <div class="site-header-inner">
+                <img src="./assets/images/profile.jpg" class="img-circle" width="40" height="40" />
+                مرحبا الاسم</div>
+            </div><!-- /.sidebar-header -->
+
+            <div class="sidebar-content">
+
+                <!-- BEGIN == sidebar menu -->
+                <ul class="sidebar-menu">
+                    <li><a href="#">عن التطبيق</a></li>
+                    
+
+
+                    <!-- with submenu -->
+                    <li class="has-submenu" class="active" >
+                        <a href="#" class="submenu-toggle">
+                            البدء
+                            <i class="glyphicon glyphicon-chevron-down pull-right"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="#">مقدمة</a></li>
+                            <li><a href="#">امكانياتي</a></li>
+                            <li><a href="#">ادواري الحياتية</a></li>
+                            
+                        </ul>
+                    </li><!-- /.has-submenu -->
+                    
+                    
+                     <!-- with submenu -->
+                    <li class="has-submenu active">
+                        <a href="#" class="submenu-toggle">
+                            الخطة
+                            <i class="glyphicon glyphicon-chevron-down pull-right"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="#">مقدمة</a></li>
+                            <li><a href="#">الأهداف الاستراتيجية</a></li>
+                            <li class="active"><a href="#">الأهداف المرحلية</a></li>
+                            
+                            
+                        </ul>
+                    </li><!-- /.has-submenu -->
+                    
+                    <!-- active menu -->
+                    <li class="active"><a href="#">المتابعة</a></li>
+                                                          
+
+                    <li><a href="#">تقرير</a></li>
+                    <li><a href="#">تنبيهات</a></li>
+                    <li><a href="#">إعدادت</a></li>
+                    <li><a href="#">خروج</a></li>
+                    
+                    
+                </ul><!-- /.sidebar-menu -->
+                <!-- end == sidebar menu -->
+
+            </div><!-- /.sidebar-content -->
+
+        </div><!-- .sidebar -->
+        <!-- END == sidebar -->
+
+        <div class="app-wrapper">
+
+            <!-- BEGIN == top navbar -->
+            <div class="navbar navbar-default navbar-abosolute-top">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+
+                        <!-- navbar title -->
+                        <a class="navbar-brand navbar-title" href="#">خطة التطوير الشخصي</a>
+
+                        <!-- sidebar toggle button, data-target = sidebar id  -->
+                        <button type="button" class="navbar-toggle pull-right" data-toggle="sidebar" data-target="#side_navbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <!-- logo or icon on navbar -->
+                        <div class="navbar-icon pull-left">
+                            <img src="./assets/images/logo.png" alt="">
+                        </div>
+
+                    </div><!-- /.navbar-header -->
+
+                </div><!-- /.container-fluid -->
+            </div><!-- /.navbar -->
+            <!-- end == top navbar -->
+            <!-- BEGIN == bottom navbar -->
+            <div class="navbar navbar-default navbar-abosolute-bottom">
+                <ul class="nav nav-pills nav-justified">
+                    <!-- add active class -->
+                    <li role="presentation" class="active"><a href="#">البدا</a></li>
+                    <li role="presentation"><a href="#">الخطة</a></li>
+                    <li role="presentation"><a href="#">المتابعة</a></li>
+                </ul>
+            </div>
+            <!-- END == bottom navbar -->
+
+            <div class="app">
+
+                <!-- add app-content-padding for add 8px padding -->
+                <div class="app-content app-content-padding">
+
+                    <!-- BEGIN == Main -->
+                    <!-- padding, border, and scrollable in app-main-content class -->
+                    <div class="app-main">
+
+                        <!-- BEGIN == main content -->
+                        <div class="app-main-content">
+
+                            <!-- wrap with this class if has button that will always at bottom -->
+                            <div class="app-main-content-with-button">
+
+                             <div class="app-content app-content-padding">
+
+                    <br>
+                    <p><a href="login.html" class="btn btn-primary">Log In</a></p>
+                    <p><a href="signup.html" class="btn btn-primary">Sign Up</a></p>
+                    <p><a href="bg.html" class="btn btn-primary">splash screen</a></p>
+                    <p><a href="main-1.html" class="btn btn-primary">Page 1</a></p>
+                    <p><a href="main-2.html" class="btn btn-primary">Page 2</a></p>
+                    <p><a href="main-3.html" class="btn btn-primary">Page 3</a></p>
+                    <p><a href="main-4.html" class="btn btn-primary">Page 4</a></p>
+                    <p><a href="main-5.html" class="btn btn-primary">Page 5</a></p>
+                    <p><a href="main-6.html" class="btn btn-primary">Page 6</a></p>
+                    <p><a href="new.html" class="btn btn-primary">Page 7</a></p>
+                    <br>
+
+                </div><!-- /.app-content -->
+
+                            </div> <!-- /.app-main-content-with-button -->
+
+                        </div><!-- /.app-main-content -->
+                        <!-- END == main content -->
+
+                        <!-- app nav (next/back button) -->
+                        <div class="app-main-nav text-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary">السابق</button>
+                                <button type="button" class="btn btn-primary">التالى</button>
+                            </div>
+                        </div><!-- /.app-main-nav -->
+
+                    </div><!-- /.app-main -->
+                    <!-- END == Main -->
+                </div><!-- /.app-content -->
+
+            </div><!-- /.app -->
+
+        </div><!-- /.app-wrapper -->
+
+        <!-- jQuery -->
+        <script src="assets/js/jquery-1.12.4.min.js" type="text/javascript"></script>
+        <!-- Bootstrap js -->
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- main js -->
+        <script src="assets/js/script.js" type="text/javascript"></script>
+
+    </body>
+
+</html>
