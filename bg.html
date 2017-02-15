@@ -11,17 +11,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>bg</title>
+<title>1</title>
 <!-- write your code here -->
 <style>
-  body {
-	overflow:hidden;
-  }
   #animation_container, #_preload_div_ {
 	position:absolute;
 	margin:auto;
-	left:-100%;right:-100%;
-	top:-100%;bottom:-100%;
+	left:0;right:0;
+	top:0;bottom:0;
   }
 </style>
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
@@ -32,26 +29,14 @@ function init() {
 	canvas = document.getElementById("canvas");
 	anim_container = document.getElementById("animation_container");
 	dom_overlay_container = document.getElementById("dom_overlay_container");
-	images = images||{};
-	var loader = new createjs.LoadQueue(false);
-	loader.addEventListener("fileload", handleFileLoad);
-	loader.addEventListener("complete", handleComplete);
-	loader.loadManifest(lib.properties.manifest);
+	handleComplete();
 }
-function handleFileLoad(evt) {	
-	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }	
-}
-function handleComplete(evt) {
+function handleComplete() {
 	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
-	var queue = evt.target;
-	var ssMetadata = lib.ssMetadata;
-	for(i=0; i<ssMetadata.length; i++) {
-		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
-	}
 	var preloaderDiv = document.getElementById("_preload_div_");
 	preloaderDiv.style.display = 'none';
 	canvas.style.display = 'block';
-	exportRoot = new lib.bg();
+	exportRoot = new lib._1();
 	stage = new createjs.Stage(canvas);
 	stage.addChild(exportRoot);	
 	//Registers the "tick" event listener.
@@ -92,7 +77,7 @@ function handleComplete(evt) {
 			lastW = iw; lastH = ih; lastS = sRatio;		
 		}
 	}
-	makeResponsive(true,'both',true,2);	
+	makeResponsive(true,'both',true,1);	
 	fnStartAnimation();
 }
 </script>
