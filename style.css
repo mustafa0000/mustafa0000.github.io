@@ -114,11 +114,13 @@ ul 									{ list-style: none; }
 								  	  border: none; }
 								  	  /* Unique rollover colors for each list */
 .panel ul#psd-list li a:hover 		{
-	color: #090;
+	color: white;
 	text-align: right;
+	background-color: #2d7b51;
 }
 .panel ul#net-list li a:hover 		{	background: #4a8c7f; color: white; }
 .panel ul#vector-list li a:hover 	{ background: #1f5293; color: white; }
 .panel ul#audio-list li a:hover 	{
-	color: #3C0;
+	color: #FFF;
+	background-color: #33b055;
 }

@@ -1,645 +1,192 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap Mobile</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="assets/css/bootstrap-rtl.css" rel="stylesheet">
+        <!-- Main CSS -->
+        <link href="assets/css/style-rtl.css" rel="stylesheet">
+
+    </head>
+
+    <!-- add dir attribut to body tag -->
+    <!-- add has-navbar-top and has-navbar-bottom -->
+    <body class="has-navbar-top has-navbar-bottom" dir="rtl">
+
+        <!-- sidebar overlay -->
+        <div id="sidebar_overlay"></div>
+
+        <!-- BEGIN == sidebar with id -->
+        <div class="sidebar sidebar-left" id="side_navbar">
+
+            <div class="sidebar-header">
+                <!-- sidebar toggle button, data-target = sidebar id  -->
+                <a href="#" class="close-sidebar pull-right" data-toggle="sidebar" data-target="#side_navbar"><i class="glyphicon glyphicon-arrow-right"></i></a>
+                
+                <div class="site-header-inner">
+                <img src="./assets/images/profile.jpg" class="img-circle" width="40" height="40" />
+                مرحبا الاسم</div>
+            </div><!-- /.sidebar-header -->
+
+            <div class="sidebar-content">
+
+                <!-- BEGIN == sidebar menu -->
+                <ul class="sidebar-menu">
+                    <li><a href="#">عن التطبيق</a></li>
+                    
 
 
-<script src="jquery.min.js"></script>
+                    <!-- with submenu -->
+                    <li class="has-submenu" class="active" >
+                        <a href="#" class="submenu-toggle">
+                            البدء
+                            <i class="glyphicon glyphicon-chevron-down pull-right"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="#">مقدمة</a></li>
+                            <li><a href="#">امكانياتي</a></li>
+                            <li><a href="#">ادواري الحياتية</a></li>
+                            
+                        </ul>
+                    </li><!-- /.has-submenu -->
+                    
+                    
+                     <!-- with submenu -->
+                    <li class="has-submenu active">
+                        <a href="#" class="submenu-toggle">
+                            الخطة
+                            <i class="glyphicon glyphicon-chevron-down pull-right"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="#">مقدمة</a></li>
+                            <li><a href="#">الأهداف الاستراتيجية</a></li>
+                            <li class="active"><a href="#">الأهداف المرحلية</a></li>
+                            
+                            
+                        </ul>
+                    </li><!-- /.has-submenu -->
+                    
+                    <!-- active menu -->
+                    <li class="active"><a href="#">المتابعة</a></li>
+                                                          
 
-<link rel='stylesheet' id='style-css'  href='slide.css' type='text/css' media='all'> 
-<script type='text/javascript' src='jquery.min.js'></script>
-<!--[if !IE]><!--><script type='text/javascript' src='jquery.mobile-1.0rc2.customized.min.js'></script><!--<![endif]-->
-<script type='text/javascript' src='jquery.easing.1.3.js'></script> 
-<script type='text/javascript' src='jquery.hoverIntent.minified.js'></script> 
-<script type='text/javascript' src='diapo.js'></script> 
+                    <li><a href="#">تقرير</a></li>
+                    <li><a href="#">تنبيهات</a></li>
+                    <li><a href="#">إعدادت</a></li>
+                    <li><a href="#">خروج</a></li>
+                    
+                    
+                </ul><!-- /.sidebar-menu -->
+                <!-- end == sidebar menu -->
 
+            </div><!-- /.sidebar-content -->
 
-<script>
-$(function(){
-	$('.pix_diapo').diapo();
-});
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
+        </div><!-- .sidebar -->
+        <!-- END == sidebar -->
 
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
+        <div class="app-wrapper">
 
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-</script>
+            <!-- BEGIN == top navbar -->
+            <div class="navbar navbar-default navbar-abosolute-top">
+                <div class="container-fluid">
 
-<!-- news-->
+                    <div class="navbar-header">
 
+                        <!-- navbar title -->
+                        <a class="navbar-brand navbar-title" href="#">خطة التطوير الشخصي</a>
 
-	
-	<script src="jquery-easing-compatibility.1.2.js" type='text/javascript'></script>
-	<script src="coda-slider.1.1.1.js" type='text/javascript'></script>
-	
-	<script type='text/javascript'>
-		$(function () {
-			$("#blogSlider").codaSlider();
-		});
-	</script>
-<!-- news-->
+                        <!-- sidebar toggle button, data-target = sidebar id  -->
+                        <button type="button" class="navbar-toggle pull-right" data-toggle="sidebar" data-target="#side_navbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
 
+                        <!-- logo or icon on navbar -->
+                        <div class="navbar-icon pull-left">
+                            <img src="./assets/images/logo.png" alt="">
+                        </div>
 
+                    </div><!-- /.navbar-header -->
 
-<link rel="stylesheet" type="text/css" href="style.css" />
+                </div><!-- /.container-fluid -->
+            </div><!-- /.navbar -->
+            <!-- end == top navbar -->
+            <!-- BEGIN == bottom navbar -->
+            <div class="navbar navbar-default navbar-abosolute-bottom">
+                <ul class="nav nav-pills nav-justified">
+                    <!-- add active class -->
+                    <li role="presentation" class="active"><a href="#">البدا</a></li>
+                    <li role="presentation"><a href="#">الخطة</a></li>
+                    <li role="presentation"><a href="#">المتابعة</a></li>
+                </ul>
+            </div>
+            <!-- END == bottom navbar -->
 
-<style type="text/css">
-#main {
-	width: 740px;
-	margin-right: auto;
-	margin-left: auto;
-	height: 950px;
-}
-#logo {
-	float: right;
-}
-#social {
-	float: right;
-	width: 100px;
-	margin-top: 55px;
-	margin-right: 175px;
-}
-.social-icons {
-	margin-right: 4px;
-	margin-left: 4px;
-	float: left;
-}
-#header {
-	clear: both;
-	height: 330px;
-	width: 740px;
-}
-#slide {
-	float: right;
-	width: 530px;
-	height: 291px;
-	padding-top: 28px;
-}
-#news {
-	float: left;
-	width: 201px;
-	height: 251px;
-}
-#middle {
-	float: none;
-	background-color: #FFF;
-	height: 300px;
-	width: 740px;
-}
-#box {
-	height: 176px;
-	width: 530px;
-	float: right;
-	background-image: url(images/box.gif);
-}
-#systems {
-	height: 302px;
-	width: 201px;
-	float: left;
-}
-#student-service {
-	float: right;
-	width: 160px;
-	margin-top: 40px;
-	height: 135px;
-}
-#teacher-services {
-	float: right;
-	width: 180px;
-	margin-top: 40px;
-	height: 135px;
-}
-#graduate {
-	float: right;
-	width: 186px;
-	height: 135px;
-	margin-top: 40px;
-}
-#programm {
-	height: 47px;
-	width: 517px;
-	float: right;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-#grad-pic {
-	height: 89px;
-	width: 72px;
-	padding-top: 5px;
-}
-#more {
-	height: 21px;
-	width: 59px;
-	padding-top: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-#txt-grad {
-	float: right;
-	width: 103px;
-	padding-right: 9px;
-	padding-left: 2px;
-	font-family: Verdana, Geneva, sans-serif;
-	color: #808285;
-	font-size: 12px;
-	text-align: right;
-	padding-top: 12px;
-}
+            <div class="app">
 
-#three-links {
-	text-align: right;
-	padding-right: 5px;
-}
+                <!-- add app-content-padding for add 8px padding -->
+                <div class="app-content app-content-padding">
 
-.ul-all {
-	text-align: right;
-	direction: rtl;
-	line-height: 20px;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-weight: normal;
-	color: #808285;
-	list-style-image: url(img/li.jpg);
-	list-style-position: inside;
-	padding-right: 4px;
-}
+                    <!-- BEGIN == Main -->
+                    <!-- padding, border, and scrollable in app-main-content class -->
+                    <div class="app-main">
 
-a.ul-all:link {
-	text-align: right;
-	direction: rtl;
-	padding-right: 5px;
-	line-height: 20px;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-weight: normal;
-	color: #808285;
-	text-decoration: underline;
-	list-style-image: url(img/li.jpg);
-	
-}
-a.ul-all:visited {
-	text-align: right;
-	direction: rtl;
-	padding-right: 5px;
-	line-height: 20px;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-weight: normal;
-	color: #808285;
-	text-decoration: underline;
-	list-style-image: url(img/li.jpg);
-	
-	
-}
-a.ul-all:hover {
-	text-align: right;
-	direction: rtl;
-	padding-right: 5px;
-	line-height: 20px;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-weight: lighter;
-	color: #32b63f;
-	text-decoration: underline;
-	list-style-image: url(img/li.jpg);
-}
+                        <!-- BEGIN == main content -->
+                        <div class="app-main-content">
 
-#vote {
-	float: right;
-	height: 147px;
-	width: 250px;
-	background-image: url(images/vote.jpg);
-	margin-top: 10px;
-	background-repeat: no-repeat;
-}
-#voting-txt {
-	width: 150px;
-	float: right;
-	margin-top: 40px;
-	height: 100px;
-	text-align: right;
-	direction: rtl;
-	font-family: Verdana, Geneva, sans-serif;
-	color: #707273;
-}
-#vote-link {
-	float: left;
-	width: 60px;
-	margin-top: 105px;
-	margin-left: 20px;
-}
-#award {
-	float: right;
-	width: 280px;
-	height: 147px;
-	margin-top: 10px;
-}
+                            <!-- wrap with this class if has button that will always at bottom -->
+                            <div class="app-main-content-with-button">
 
-#photo-gallery {
-	float: right;
-	margin-top: 10px;
-	height: 148px;
-	width: 188px;
-	margin-right: 10px;
-}
-#bg-footer {
-	background-image: url(images/footer.jpg);
-	height: 43px;
-	width: 740px;
-	clear: both;
-}
-#bottom {
-	clear: both;
-	height: 160px;
-	margin-bottom: 20px;
-}
-#footer-icon {
-	float: right;
-}
-#footer-icons {
-	float: right;
-	width: 35px;
-	margin-top: 9px;
-	margin-right: 8px;
-}
-.footer-link {
-	float: right;
-	margin-top: 10px;
-	margin-right: 5px;
-	margin-left: 10px;
-	text-align: center;
-}
+                             <div class="app-content app-content-padding">
 
-.icons-link {
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 12px;
-	margin-left: 9px;
-	height: 80px;
-}
+                    <br>
+                    <p><a href="login.html" class="btn btn-primary">Log In</a></p>
+                    <p><a href="signup.html" class="btn btn-primary">Sign Up</a></p>
+                    <p><a href="bg.html" class="btn btn-primary">splash screen</a></p>
+                    <p><a href="main-1.html" class="btn btn-primary">Page 1</a></p>
+                    <p><a href="main-2.html" class="btn btn-primary">Page 2</a></p>
+                    <p><a href="main-3.html" class="btn btn-primary">Page 3</a></p>
+                    <p><a href="main-4.html" class="btn btn-primary">Page 4</a></p>
+                    <p><a href="main-5.html" class="btn btn-primary">Page 5</a></p>
+                    <p><a href="main-6.html" class="btn btn-primary">Page 6</a></p>
+                    <p><a href="new.html" class="btn btn-primary">Page 7</a></p>
+                    <br>
 
-a.icons-link:link {
-	color: #6f7072;
-	text-decoration: none;
-	font-size: 12px;
-	
-}
-a.icons-link:visited {
-	color: #6f7072;
-	text-decoration: none;
-	font-size: 12px;	
-	
-}
-a.icons-link:hover {
-	color: #060;
-	text-decoration: none;
-	font-size: 12px;
-}
+                </div><!-- /.app-content -->
 
+                            </div> <!-- /.app-main-content-with-button -->
 
-#empty {
-	height: 45px;
-	clear: both;
-}
+                        </div><!-- /.app-main-content -->
+                        <!-- END == main content -->
 
+                        <!-- app nav (next/back button) -->
+                        <div class="app-main-nav text-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary">السابق</button>
+                                <button type="button" class="btn btn-primary">التالى</button>
+                            </div>
+                        </div><!-- /.app-main-nav -->
 
-</style>
+                    </div><!-- /.app-main -->
+                    <!-- END == Main -->
+                </div><!-- /.app-content -->
 
+            </div><!-- /.app -->
 
+        </div><!-- /.app-wrapper -->
 
-<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
-</head>
+        <!-- jQuery -->
+        <script src="assets/js/jquery-1.12.4.min.js" type="text/javascript"></script>
+        <!-- Bootstrap js -->
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- main js -->
+        <script src="assets/js/script.js" type="text/javascript"></script>
 
-<body onload="MM_preloadImages('images/photo-gallery-over.jpg','images/tel-g.png','images/fourm-g.jpg','images/pen-g.png','images/e-g.png','images/s.png')">
-<div id="main"><!-- main -->
+    </body>
 
-<!-- --->
-  <div><!-- logo area -->
-    <div id="logo"><img src="images/deanship-logo.jpg" width="258" height="82" alt="Deanship logo" /></div>
-    <div id="social">
-      <div class="social-icons"><a href="http://www.facebook.com/people/عمادة-التعليم-عن-بعد/100000792453191" target="_top"><img src="images/facebook.jpg" alt="Facebook" width="24" height="24" border="0" title="Facebook" /></a></div>
-      <div class="social-icons"><a href="http://twitter.com/#!/KAU_DDL" target="_top"><img src="images/twitter.jpg" alt="Facebook" width="24" height="24" border="0" title="twitter" /></a></div>
-      <div class="social-icons"><a href="http://www.youtube.com/ddladmin" target="_top"><img src="images/youtube.jpg" alt="Facebook" width="24" height="24" border="0" title="You Tube" /></a></div>
-    </div>
-  </div><!-- End logo area -->
-<!-- --->
- 
-<!-- --->
-<div id="header"><!-- Header -->
-  <!-- start slide --><div id="slide">
-    <div style=" width:530px; margin:0px auto; padding:0 0px;">
-      <div class="pix_diapo">
-        <!-- news0 start -->
-        <div data-thumb="ramdan22.jpg"> <img src="ramdan2.jpg" />
-          <div class="caption elemHover fromLeft"><a class="ul-all2" href="#"  target="_top"> اطيب التهاني واصدق الأماني بمناسبة حلول شهر رمضان المبارك</a></div>
-        </div>
-        <!-- news0 end -->
-        <!-- news0 start -->
-        <div data-thumb="slideaa.jpg"> <img src="slide1a.jpg" />
-          <div class="caption elemHover fromLeft"><a class="ul-all2" href="http://elearning.kau.edu.sa/Pages-%D8%AA%D8%B1%D9%82%D9%8A%D8%A9-%D9%85%D8%AF%D9%8A%D8%B1.aspx"  target="_top"> يتقدم منسوبي عمادة التعلم الالكتروني والتعليم عن بعد بأجمل التهاني والتبريكات لسعادة مدير ادارة عمادة التعلم الالكتروني والتعليم عن بعد الأستاذ/ عاصم قفاص </a></div>
-        </div>
-        <!-- news0 end -->
-        <!-- news2a start -->
-        <div data-thumb="slide44a.jpg"> <img src="slide44.jpg" />
-          <div class="caption elemHover fromLeft"> <a class="ul-all2" href="http://elearning.kau.edu.sa/Pages-اعتماد-دولي.aspx"  target="_top">الجامعة تحتفل بحصول عمادة التعلم الإلكتروني والتعليم عن بعد على الاعتماد الدولي </a> </div>
-        </div>
-        <!-- news2a end -->
-        <!-- news2 start -->
-        <!-- news2 end -->
-        <!-- news3 start -->
-        <div data-thumb="slide1a.jpg"> <img src="reg.jpg" />
-          <div class="caption elemHover fromLeft"><a class="ul-all2" href="http://admission.kau.edu.sa/Default.aspx?Site_ID=210&Lng=AR"  target="_top"> بدء التسجيل الالكتروني لبرامج التعليم عن بعد </a></div>
-        </div>
-        <!-- news3 end -->
-        <!-- news4 start -->
-        <div data-thumb="slide3.jpg"> <img src="slide10.jpg" />
-          <div class="caption elemHover fromLeft"><a class="ul-all2" href="http://elearning.kau.edu.sa/accesspage.aspx?sys_id=256&site_id=214&lng=ar"  target="_top"> تعلن عمادة التعلم الالكتروني والتعليم عن بعد عن بدء التسجيل في الدورات التدريبية للفصل الدراسي الأول لعام 1433/1434هـ</a></div>
-        </div>
-        <!-- news4 end -->
-        <!-- news1 start -->
-        <div data-thumb="slide5.jpg"> <img src="slide9.jpg" />
-          <div class="caption elemHover fromLeft"><a class="ul-all2" href="http://elearning.kau.edu.sa/Pages-%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D8%B5%D9%8A%D9%81%D9%8A%D8%A9.aspx"  target="_top"> عمادة التعلم الالكتروني والتعليم عن بعد تواصل في تقديم برامجها الصيفية</a></div>
-        </div>
-        <!-- news1 end -->
-      </div>
-    </div>
-  </div><!-- END slide -->
-  
-  
-  <div id="news"><!--start news --> 
-  
-  <div id="blogSliderWrap">
-
-	  <div id="blogSlider">
-			<div class="innerWrap">
-				<div class="panelContainer">
-					
-				  <div class="panel" title="احداث">
-						<div class="wrapper">
-					
-							<ul id="psd-list">
-								<li><a  href="http://elearning.kau.edu.sa/Pages-%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%B5%D9%8A%D9%81%D9%8A.aspx" target="_top">التدريب الصيفي للفنيين على أنظمة عمادة التعلم الالكتروني والتعليم عن بعد</a></li>
-                                
-                                <li><a  href="http://elearning.kau.edu.sa/Pages-%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D8%B5%D9%8A%D9%81%D9%8A%D8%A9.aspx" target="_top">عمادة التعلم الالكتروني والتعليم عن بعد تواصل في تقديم برامجها الصيفية</a></li>
-                                
-                                
-                                <li><a  href="http://elearning.kau.edu.sa/Pages-تهنئة-لأستاذة-روزان.aspx" target="_top">تهنئة للأستاذة روزان سامي بري</a></li><li><a href="http://admission.kau.edu.sa/Default.aspx?Site_ID=210&Lng=AR" target="_top">بدء التسجيل الالكتروني لبرامج التعليم عن بعد</a></li>
-                                
-                                <li><a  href="http://elearning.kau.edu.sa/Pages-تهنئة-لوكيل-العمادة-للتعليم-عن-بعد.aspx" target="_top">تهنئة لسعادة وكيل العمادة للتعليم عن بعد أ.د. داوود مشاط</a></li>							</ul>
-
-					
-						</div>
-					</div>
-					<div class="panel" title="اخبار">
-					  <div class="wrapper">
-						
-							<ul id="audio-list">
-									<li><a  href="http://elearning.kau.edu.sa/Pages-%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D8%B5%D9%8A%D9%81%D9%8A.aspx" target="_top">التدريب الصيفي للفنيين على أنظمة عمادة التعلم الالكتروني والتعليم عن بعد</a></li>
-                                
-                                <li><a  href="http://elearning.kau.edu.sa/Pages-%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D8%B5%D9%8A%D9%81%D9%8A%D8%A9.aspx" target="_top">عمادة التعلم الالكتروني والتعليم عن بعد تواصل في تقديم برامجها الصيفية</a></li>
-                                
-                                
-                                <li><a  href="http://elearning.kau.edu.sa/Pages-تهنئة-لأستاذة-روزان.aspx" target="_top">تهنئة للأستاذة روزان سامي بري</a></li><li><a href="http://admission.kau.edu.sa/Default.aspx?Site_ID=210&Lng=AR" target="_top">بدء التسجيل الالكتروني لبرامج التعليم عن بعد</a></li>
-                                
-                                <li><a  href="http://elearning.kau.edu.sa/Pages-تهنئة-لوكيل-العمادة-للتعليم-عن-بعد.aspx" target="_top">تهنئة لسعادة وكيل العمادة للتعليم عن بعد أ.د. داوود مشاط</a></li>							</ul>
-
-						
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-        
-</div>
-  
-  
-  
-  
-  </div><!-- end news -->
-  
-  
-</div><!-- END Header -->
-<!-- --->  
-
-<!-- --->
-<div id="middle"><!-- middle -->
-<div id="systems">
-    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="201" height="302" id="FlashID" title="Education systems">
-      <param name="movie" value="images/system.swf" />
-      <param name="quality" value="high" />
-      <param name="wmode" value="opaque" />
-      <param name="swfversion" value="6.0.65.0" />
-      <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don't want users to see the prompt. -->
-      <param name="expressinstall" value="Scripts/expressInstall.swf" />
-      <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
-      <!--[if !IE]>-->
-      <object type="application/x-shockwave-flash" data="images/system.swf" width="201" height="302">
-        <!--<![endif]-->
-        <param name="quality" value="high" />
-        <param name="wmode" value="opaque" />
-        <param name="swfversion" value="6.0.65.0" />
-        <param name="expressinstall" value="Scripts/expressInstall.swf" />
-        <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
-        <div>
-          <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
-          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
-        </div>
-        <!--[if !IE]>-->
-      </object>
-      <!--<![endif]-->
-    </object>
-  </div>
-<div id="programm"><img src="images/programm.jpg" width="517" height="47" border="0" usemap="#Map" />
-  <map name="Map" id="Map">
-    <area shape="rect" coords="258,4,356,29" href="http://elearning.kau.edu.sa/Pages-%D8%AF%D8%A8%D9%84%D9%88%D9%852.aspx" target="_top" />
-    <area shape="rect" coords="137,3,234,29" href="http://elearning.kau.edu.sa/Pages-%D8%AA%D8%B9%D8%B1%D9%8A%D9%81-%D8%A7%D9%84%D9%86%D8%B8%D8%A7%D9%85.aspx" target="_top" />
-    <area shape="rect" coords="16,3,112,29" href="http://elearning.kau.edu.sa/Pages-%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1-%D8%AA%D8%B1%D8%A8%D9%88%D9%8A.aspx" target="_top" />
-  </map>
-</div>
-  <div id="box">
-     
-    <div id="student-service">
-      <div id="three-links">
-     
-      <ul class="ul-all">
-        <li><a href="http://elearning.kau.edu.sa/Pages-%D8%AA%D8%B9%D8%B1%D9%8A%D9%81-%D8%A7%D9%84%D9%86%D8%B8%D8%A7%D9%85.aspx" target="_top" class="ul-all">البرامج والتخصصات</a></li>
-        <li><a class="ul-all" href="http://elearning.kau.edu.sa/Pages-%D8%B5%D9%81%D8%AD%D8%A9-%D8%B7%D9%84%D8%A7%D8%A8-1.aspx" target="_top">طـلاب التعـليم عن بعد</a></li>
-        <li><a class="ul-all" href="http://elearning.kau.edu.sa/Pages-%D8%B5%D9%81%D8%AD%D8%A9-%D8%B7%D9%84%D8%A7%D8%A8-2.aspx" target="_top">طـلاب الانتسـاب</a></li>
-       
-        
-       
-        <li><a class="ul-all" href="http://elearning.kau.edu.sa/Pages-%D8%AE%D8%B7%D8%A91431.aspx" target="_top">الخـــطــة الــدراســيــة</a></li>
-        <li><a class="ul-all" href="http://elearning.kau.edu.sa/PAGES-%D9%86%D9%85%D9%88%D8%B0%D8%AC-%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8-%D8%B4%D8%B7%D8%B1%D8%A7%D9%84%D8%A8%D9%86%D9%8A%D9%86.ASPX" target="_top">الـدورات التـدريـبيـة</a></li>
-      </ul>
-        
-    </div>
-    </div>
-    <div id="teacher-services">
-      <div id="three-links">
-     
-      <ul class="ul-all">
-        <li><a href="http://elearning.kau.edu.sa/accesspage.aspx?sys_id=395&amp;site_id=214&amp;lng=ar" target="_top" class="ul-all">اليـــــــــــة التـدريـــــــس</a></li>
-        <li><a class="ul-all" href="http://elearning.kau.edu.sa/Pages-%D8%B4%D8%B1%D8%AD-%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9.aspx" target="_top">شرح الانظمة المستخدمة</a></li>
-        <li><a class="ul-all" href="http://elearning.kau.edu.sa/Pages-%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AF.aspx" target="_top">تطوير المـــواد التعليمية</a></li>
-       
-        
-       
-        <li><a class="ul-all" href="http://elearning.kau.edu.sa/Pages-%D8%AF%D9%88%D8%B1%D8%A9.aspx" target="_top">الــــــــدورات التــدريـبيــة</a></li>
-      </ul>
-        
-    </div>
-    </div>
-    <div id="graduate">
-      <div id="txt-grad">عالي مصلح صالح القرني
-الكلية /  الآداب والعلوم الإنسانية 
-التخصص / لغات أوروبية 
-
-تجربة ناجحة بكل المقاييس اشكر من قام على نجاحها وعلى رأسهمراعي 
-</div>
-      <div id="grad-pic"><img src="images/students.jpg" width="72" height="89" /></div>
-      <div id="more"><a href="#"><img src="images/more.png" alt="more" width="59" height="21" border="0" /></a></div>
-      
-    </div>
-    
-  </div>
- 
-  
-  
-  
-  
-  
-  
-</div><!-- END middle -->
-<!-- --->
-
-
-<div id="bottom"><!-- start bottom -->
-  <div id="vote"><!-- start voting -->
-    <div id="voting-txt">
-      <form id="form1" name="form1" method="post" action="">
-        <p>
-          <label>
-            <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0" class="highlighted" />
-            ممتاز</label>
-          <br />
-          <label>
-            <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1" />
-            جـيــد </label>
-          <br />
-          <label>
-            <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2" />
-            مقبول</label>
-          <br />
-        </p>
-      </form>
-    </div>
-    <div id="vote-link"><a href="#"><img src="images/vote.png" alt="vote" width="61" height="21" border="0" /></a></div>
-  </div><!-- end voting  -->
-  
-  <div id="award"><!-- award start -->
-    <object id="FlashID2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="280" height="147">
-      <param name="movie" value="images/award.swf" />
-      <param name="quality" value="high" />
-      <param name="wmode" value="opaque" />
-      <param name="swfversion" value="6.0.65.0" />
-      <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
-      <param name="expressinstall" value="Scripts/expressInstall.swf" />
-      <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
-      <!--[if !IE]>-->
-      <object type="application/x-shockwave-flash" data="images/award.swf" width="280" height="147">
-        <!--<![endif]-->
-        <param name="quality" value="high" />
-        <param name="wmode" value="opaque" />
-        <param name="swfversion" value="6.0.65.0" />
-        <param name="expressinstall" value="Scripts/expressInstall.swf" />
-        <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
-        <div>
-          <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
-          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
-        </div>
-        <!--[if !IE]>-->
-      </object>
-      <!--<![endif]-->
-    </object>
-  </div><!-- END award  -->
-  
-  <!-- start photgallery -->
-  <div id="photo-gallery"><a href="http://elearning.kau.edu.sa/ImageGallery.aspx?Site_ID=214&amp;Lng=AR" target="_top" onmouseover="MM_swapImage('Image16','','images/photo-gallery-over.jpg',1)" onmouseout="MM_swapImgRestore()"><img src="images/photo-gallery.jpg" name="Image16" width="188" height="148" border="0" id="Image16" /></a></div><!-- end photo gallery -->
-  
-  
-  </div><!-- END bottom -->
-   
-  
-   <div id="bg-footer"><!-- start footer -->
-   
-      <!-- --->
-     <div id="footer-icons"><a href="http://elearning.kau.edu.sa/content.aspx?http://elearning.kau.edu.sa/content.aspx?Site_ID=214&amp;lng=AR&amp;cid=41584&amp;URL=www.kau.edu.sa" target="_top" onmouseover="MM_swapImage('Image17','','images/tel-g.png',1)" onmouseout="MM_swapImgRestore()"><img src="images/tel.png" alt="الرد الألي" name="Image17" width="25" height="26" border="0" id="Image17" /></a></div>
-     
-     <div class="footer-link"><a href="http://elearning.kau.edu.sa/content.aspx?Site_ID=214&amp;lng=AR&amp;cid=41584&amp;URL=www.kau.edu.sa" target="_top" class="icons-link">
-     الــرد <br>الالـي</a></div>
-     <!-- --->
-     
-     <!-- --->
-     <div id="footer-icons"><a href="http://forum.kau.edu.sa/vb/" target="_top" onmouseover="MM_swapImage('Image18','','images/fourm-g.jpg',1)" onmouseout="MM_swapImgRestore()"><img src="images/fourm.jpg" alt="مـنـتـديات التعليـم عـن بعـد" name="Image18" width="26" height="24" border="0" id="Image18" /></a></div>
-     
-     <div class="footer-link"><a href="http://forum.kau.edu.sa/vb/" target="_top" class="icons-link">
-     مـنـتـديات التعليـم<br> عـن بعـد
- </a></div>
-     <!-- --->
-     
-      <!-- --->
-      <div id="footer-icons"><a href="http://elearning.kau.edu.sa/content.aspx?Site_ID=214&amp;lng=AR&amp;cid=88792&amp;URL=www.kau.edu.sa&amp;URL=www.kau.edu.sa" target="_top" onmouseover="MM_swapImage('Image19','','images/pen-g.png',1)" onmouseout="MM_swapImgRestore()"><img src="images/pen.png" alt="نظـام الاقتراحت والملاحظات" name="Image19" width="29" height="28" border="0" id="Image19" /></a></div>
-      
-     <div class="footer-link"><a href="http://elearning.kau.edu.sa/content.aspx?Site_ID=214&amp;lng=AR&amp;cid=88792&amp;URL=www.kau.edu.sa&amp;URL=www.kau.edu.sa" target="_top" class="icons-link">
-     نظـام الاقتراحت <br>والملاحظات
- </a></div>
-    <!-- --->
-    
-    <!-- --->
-    <div id="footer-icons"><a href="http://www.elc.edu.sa/portal/" target="_top" onmouseover="MM_swapImage('Image20','','images/e-g.png',1)" onmouseout="MM_swapImgRestore()"><img src="images/e.png" alt="المركز الوطني للتعليم الألكتروني " name="Image20" width="27" height="25" border="0" id="Image20" /></a></div>
-    
-    <div class="footer-link"><a href="http://www.elc.edu.sa/portal/" target="_top" class="icons-link">
-     المركز الوطني<br>للتعليم الألكتروني 
- </a></div>
- 
- 
-    <!-- --->
-    
-    <!-- --->
-    <div id="footer-icons"><a href="http://ssdl.kau.edu.sa/DEFAULT.ASPX?SITE_ID=214001&amp;LNG=AR" target="_top" onmouseover="MM_swapImage('Image21','','images/s.png',1)" onmouseout="MM_swapImgRestore()"><img src="images/s-g.png" alt="الجمعية  السعودية للتعليم عن بعد" name="Image21" width="26" height="25" border="0" id="Image21" /></a></div>
-    
-    <div class="footer-link"><a href="http://ssdl.kau.edu.sa/DEFAULT.ASPX?SITE_ID=214001&amp;LNG=AR" target="_top" class="icons-link">
-     الجمعية  السعودية <br>للتعليم عن بعد
- </a></div>
-    <!-- --->
-     
-  </div><!-- end footer -->
-  
-  
-</div><!-- END main -->
-<script type="text/javascript">
-swfobject.registerObject("FlashID");
-swfobject.registerObject("FlashID2");
-</script>
-</body>
 </html>
