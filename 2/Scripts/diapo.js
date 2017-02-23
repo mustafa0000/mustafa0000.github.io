@@ -63,7 +63,7 @@
 		
 		mobilePagination	: true,	//true, false. It enables the pagination numbers on mobile devices
 		
-		thumbs				: true,	//true, false. It shows the thumbnails (if available) when the mouse is on the pagination buttons. Not available for mobile devices
+		thumbs				: false,	//true, false. It shows the thumbnails (if available) when the mouse is on the pagination buttons. Not available for mobile devices
 		
 		hover				: true,	//true, false. Puase on state hover. Not available for mobile devices
 		
@@ -390,7 +390,7 @@
 		if(pagination==true) {
 			$('#pix_pag').append('<ul id="pix_pag_ul" />');
 			var li;
-			for (li = 0; li < amountSlide; li++){
+			for (li = 1; li < amountSlide; li++){
 				$('#pix_pag_ul').append('<li id="pag_nav_'+li+'" style="position:relative; z-index:1002"><span><span>'+li+'</span></span></li>');
 				if(opts.thumbs==true) {
 					var dataThumb = selector.eq(li).attr('data-thumb');
