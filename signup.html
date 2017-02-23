@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap Mobile</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="assets/css/bootstrap-rtl.css" rel="stylesheet">
+        <!-- Main CSS -->
+        <link href="assets/css/style-rtl.css" rel="stylesheet">
+
+    </head>
+
+    <!-- add dir attribut to body tag -->
+    <!-- add .login-page class for background -->
+    <body class="login-page" dir="rtl">
+
+        <div class="app-wrapper">
+
+            <div class="app">
+
+                <!-- add app-content-padding for add 8px padding -->
+                <div class="app-content app-content-padding">
+
+                    <!-- 
+                    add app-content-center and app-content-center-inner classes
+                    to place content at center of screen
+                    -->
+                    <div class="app-content-center">
+                        <div class="app-content-center-inner">
+
+
+                            <!-- BEGIN == login form -->
+                            <form class="form-login">
+
+                                <h2><strong>سجل</strong></h2>
+
+                                <!-- BEGIN == registration fields -->
+                                <!-- username field -->
+                                <div class="form-group form-group-lg input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input type="text" class="form-control" placeholder="اسم المستخدم">
+                                </div>
+                                <!-- email field -->
+                                <div class="form-group form-group-lg input-group">
+                                    <span class="input-group-addon">@</span>
+                                    <input type="email" class="form-control" placeholder="البريد الإلكتروني">
+                                </div>
+                                <!-- password field -->
+                                <div class="form-group form-group-lg input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                    <input type="password" class="form-control" placeholder="كلمه السر">
+                                </div>
+                                <!-- confirm password field -->
+                                <div class="form-group form-group-lg input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                    <input type="password" class="form-control" placeholder="تأكيد كلمة المرور">
+                                </div>
+                                <!-- submit button -->
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-primary btn-lg" value="سجل">
+                                </div>
+                                <!-- END == registration fields -->
+
+                            </form><!-- /.form-login -->
+                            <!-- END == login form -->
+
+                        </div><!-- /.app-content-center-inner -->
+                    </div><!-- /.app-content-center -->
+
+                </div><!-- /.app-content -->
+
+            </div><!-- /.app -->
+
+        </div><!-- /.app-wrapper -->
+
+        <!-- jQuery -->
+        <script src="assets/js/jquery-1.12.4.min.js" type="text/javascript"></script>
+        <!-- Bootstrap js -->
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- main js -->
+        <script src="assets/js/script.js" type="text/javascript"></script>
+
+    </body>
+    
+</html>

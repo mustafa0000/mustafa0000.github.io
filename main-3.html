@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -26,10 +26,7 @@
             <div class="sidebar-header">
                 <!-- sidebar toggle button, data-target = sidebar id  -->
                 <a href="#" class="close-sidebar pull-right" data-toggle="sidebar" data-target="#side_navbar"><i class="glyphicon glyphicon-arrow-right"></i></a>
-                
-                <div class="site-header-inner">
-                <img src="./assets/images/profile.jpg" class="img-circle" width="40" height="40" />
-                مرحبا الاسم</div>
+                <div class="site-header-inner">القائمة</div>
             </div><!-- /.sidebar-header -->
 
             <div class="sidebar-content">
@@ -41,45 +38,24 @@
 
 
                     <!-- with submenu -->
-                    <li class="has-submenu" class="active" >
+                    <li class="has-submenu">
                         <a href="#" class="submenu-toggle">
                             البدء
                             <i class="glyphicon glyphicon-chevron-down pull-right"></i>
                         </a>
                         <ul class="submenu">
-                            <li><a href="#">مقدمة</a></li>
                             <li><a href="#">امكانياتي</a></li>
                             <li><a href="#">ادواري الحياتية</a></li>
                             
                         </ul>
                     </li><!-- /.has-submenu -->
                     
-                    
-                     <!-- with submenu -->
-                    <li class="has-submenu active">
-                        <a href="#" class="submenu-toggle">
-                            الخطة
-                            <i class="glyphicon glyphicon-chevron-down pull-right"></i>
-                        </a>
-                        <ul class="submenu">
-                            <li><a href="#">مقدمة</a></li>
-                            <li><a href="#">الأهداف الاستراتيجية</a></li>
-                            <li class="active"><a href="#">الأهداف المرحلية</a></li>
-                            
-                            
-                        </ul>
-                    </li><!-- /.has-submenu -->
-                    
                     <!-- active menu -->
-                    <li class="active"><a href="#">المتابعة</a></li>
-                                                          
+                    <li class="active"><a href="#">الخطة</a></li>
 
-                    <li><a href="#">تقرير</a></li>
-                    <li><a href="#">تنبيهات</a></li>
+                    <li><a href="#">متابعة تحقق الاهداف</a></li>
                     <li><a href="#">إعدادت</a></li>
                     <li><a href="#">خروج</a></li>
-                    
-                    
                 </ul><!-- /.sidebar-menu -->
                 <!-- end == sidebar menu -->
 
@@ -142,22 +118,36 @@
                             <!-- wrap with this class if has button that will always at bottom -->
                             <div class="app-main-content-with-button">
 
-                             <div class="app-content app-content-padding">
+                                <div class="form-group">
+                                    <label class="btn-block text-center">اختار </label>
 
-                    <br>
-                    <p><a href="login.html" class="btn btn-primary">Log In</a></p>
-                    <p><a href="signup.html" class="btn btn-primary">Sign Up</a></p>
-                    <p><a href="bg.html" class="btn btn-primary">splash screen</a></p>
-                    <p><a href="main-1.html" class="btn btn-primary">Page 1</a></p>
-                    <p><a href="main-2.html" class="btn btn-primary">Page 2</a></p>
-                    <p><a href="main-3.html" class="btn btn-primary">Page 3</a></p>
-                    <p><a href="main-4.html" class="btn btn-primary">Page 4</a></p>
-                    <p><a href="main-5.html" class="btn btn-primary">Page 5</a></p>
-                    <p><a href="main-6.html" class="btn btn-primary">Page 6</a></p>
-                    <p><a href="new.html" class="btn btn-primary">Page 7</a></p>
-                    <br>
+                                    <!-- begin == list group with radio input -->
+                                    <div class="list-group list-group-select">
+                                        <label class="list-group-item">
+                                            <!-- add checked attribute -->
+                                            <input type="radio" name="options" checked=""> <span class="list-label">الجانب الحياتي  1</span>
+                                        </label>
+                                        <label class="list-group-item">
+                                            <input type="radio" name="options"> <span class="list-label">الجانب الحياتي  2</span>
+                                        </label>
+                                        <label class="list-group-item">
+                                            <input type="radio" name="options"> <span class="list-label">الجانب الحياتي  3</span>
+                                        </label>
+                                        <label class="list-group-item">
+                                            <input type="radio" name="options"> <span class="list-label">الجانب الحياتي  4</span>
+                                        </label>
+                                        <label class="list-group-item">
+                                            <input type="radio" name="options"> <span class="list-label">الجانب الحياتي  5</span>
+                                        </label>
+                                    </div>
+                                    <!-- end == list group -->
 
-                </div><!-- /.app-content -->
+                                </div>
+
+                                <!-- main content button -->
+                                <p class="app-main-content-button text-center">
+                                    <button type="button" class="btn btn-primary btn-lg">ابدا</button>
+                                </p>
 
                             </div> <!-- /.app-main-content-with-button -->
 
