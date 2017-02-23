@@ -1,0 +1,60 @@
+/*-----------------------------------------------------------------------------------------------*/
+/*                   A BETTER TOOLTIP - POWERED BY JQUERY AWESOMENESS                            */
+/*                   AUTHOR: jon cazier                                                          */
+/*                   EMAIL: jon at 3nhanced dot com                                              */
+/*-----------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------*/
+/*                                  CSS RESET THANKS TO ERIC MEYER                               */
+/*                   http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/                */
+/*-----------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/*                                          GENERAL STYLES                                       */
+/*-----------------------------------------------------------------------------------------------*/
+
+	
+	.tTip {
+	width: 200px;
+	cursor: pointer;
+	font-weight: normal;
+	height: 20px;
+	text-align: center;
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-right: 40px;
+}
+	.tip {color: #333;}
+	
+		#cloud1 {
+	left: 480px;
+	top: 1198px;
+
+}
+		#cloud2 {top: 168px; left: 440px;}
+		#cloud3 {top: 228px; left: 100px;}
+		#cloud4 {top: 350px; left: 370px;}
+		#cloud5 {top: 370px; left: 60px;}
+				
+/*-----------------------------------------------------------------------------------------------*/
+/*                                         TOOLTIP STYLES                                        */
+/*-----------------------------------------------------------------------------------------------*/
+
+.tip {
+	width: 212px;
+	padding-top: 37px;
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	z-index: 500;
+	background: transparent url(images/tipTop.png) no-repeat top;
+	font-family: tahoma;
+	font-size: 11px;
+	color: #666;
+	font-weight: bolder;
+}
+	
+.tipMid {background: transparent url(images/tipMid.png) repeat-y; padding: 0 25px 20px 25px;}
+.tipBtm {background: transparent url(images/tipBtm.png) no-repeat bottom; height: 32px;}

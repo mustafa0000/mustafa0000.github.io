@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="google-site-verification" content="WMRo8D3AYW2Y10mdipWCNkJMPz8TFmllmXWPttw9Quo" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Saudi Society of Rheumatology,sa sr,sa-sr.com,sa-sr,Saudi Rheumatology,SSR,Saudi Arabia rheumatology,ksa rheumatology,rheumatology,rheumatoid arthritis,arab rheumatoid arthritis,Saudi rheumatoid arthritis,arab rheumatology,الجمعية السعودية لأمراض الروماتيزم,??????????,??????????????????,????? ??????????" />
+    
+    <meta name="description" content="Welcome to the Saudi Society of Rheumatology (SSR) website!. SSR is newly established this year in May 2010. This is a very meaningful year to us as we wish to grow from a young society to become a well recognized society in this region." />
+    
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>..:: Saudi Society of Rheumatology  الجمعية السعودية لأمراض الروماتيزم::..</title>
+<!-- TemplateEndEditable -->
+<link href="../css/layout1.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+	background-image: url(../images/rheumatology-default-bg3.jpg);
+	background-repeat: no-repeat;
+}
+-->
+</style>
+
+
+<script src="../Scripts/swfobject_modified.js" type="text/javascript"></script>
+
+
+
+
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<script type="text/javascript" src="stmenu.js"></script></head>
+
+<body class="body">
+
+
+<!-- Start Wrapper -->
+<div class="wrapper">
+<!-- Start Wrapper -->
+
+
+
+  <!-- Start Header -->
+  <div class="header">
+  <!-- Start Header -->
+  
+    <div class="logo"><a href="../index.html"><img src="../images/saudi-society-rheumatology-logo.png" alt="saudi-society-rheumatology-logo" width="165" height="165" border="0" title="Saudi Society rheumatology Logo" /></a>
+      <div class="logo-text">Saudi Society of Rheumatology</div>
+    </div>
+    
+    <div class="login">
+      <div class="username">
+        <div>User Name:</div>
+      <input type="text" name="user" id="user" /><div class="create"><a class="create-link" href="#">Create an account</a></div></div>
+      <div class="username">
+        <div>Password:</div>
+        <input type="password" name="password" id="password" />
+        <div class="create"><a class="create-link" href="#">Forget your password</a></div>
+      </div>
+      
+      <div class="login-icon"><a href="#"><img src="../images/login5.gif" alt="Login" width="43" height="21" border="0" /></a></div>
+    </div>
+    
+    <!-- start search -->
+    <div class="search-txt">Search..</div>
+<div class="search">
+
+      <div class="search-icon"><a href="#"><img src="../images/okwhite.gif" alt="Search.." width="43" height="21" border="0" /></a></div>
+     
+      <div class="search-input">
+        <input name="Search" type="text" id="Search" size="35" /></div>
+      <div class="home-page"><img src="../images/homeicon1.gif" width="11" height="11" alt="Home Page" /><a class="home-page-click" href="../index.html">Home</a></div>
+</div>
+    
+  <!-- End Header -->
+  </div>
+  <!-- End Header -->
+  
+  
+  <!-- Start Menu -->
+  <div class="menu">
+<a href="http://www.dhtml-menu-builder.com"  style="display:none;visibility:hidden;">Javascript DHTML Drop Down Menu Powered by dhtml-menu-builder.com</a>
+<script type="text/javascript">
+<!--
+stm_bm(["menu58ef",900,"","blank.gif",0,"","",0,0,250,0,1000,1,0,0,"","",0,0,1,2,"default","hand","",1,25],this);
+stm_bp("p0",[0,4,0,0,0,0,0,7,100,"progid:DXImageTransform.Microsoft.Wipe(GradientSize=1.0,wipeStyle=1,motion=forward,enabled=0,Duration=0.60)",5,"",-2,50,0,0,"#999999","","bg_menu.jpg",1,0,0,"#000000"]);
+stm_ai("p0i0",[0,"About us","","",-1,-1,0,"","_self","","","","",0,0,0,"","",7,7,0,1,1,"",0,"#11c4e2",0,"","",3,3,0,0,"#E6EFF9","#000000","#FFFFFF","#000066","12pt Verdana","12pt verdana",0,0,"","","","",0,0,0],110,54);
+stm_bpx("p1","p0",[1,4,0,0,0,0,0,0,100,"progid:DXImageTransform.Microsoft.Wipe(GradientSize=1.0,wipeStyle=1,motion=forward,enabled=0,Duration=0.60)",5,"progid:DXImageTransform.Microsoft.Wipe(GradientSize=1.0,wipeStyle=1,motion=reverse,enabled=0,Duration=0.60)",4]);
+stm_aix("p1i0","p0i0",[0,"  Welcome Message","","",-1,-1,0,"welcome-message.html","_self","","","","",0,0,0,"","",0,0,0,0,1,"#11c4e2",0,"#0ca7d5",0,"","",3,3,1,1,"#FFFFFF","#FFFFFF","#FFFFFF","#000066","12pt Verdana","12pt Verdana"],180,22);
+stm_aix("p1i1","p1i0",[0,"  Vision and Mission","","",-1,-1,0,"mission-vission.html"],180,22);
+stm_ep();
+stm_aix("p0i1","p0i0",[0,"Rheumatology","","",-1,-1,0,"","_self","","","","",0,0,0,"","",7,7,0,1,1,"",0,"#11c4e2",0,"","",3,3,0,0,"#E6EFF9","#000000","#FFFFFF","#000066","12pt verdana"],179,54);
+stm_bpx("p2","p1",[1,4,0,0,0,0,0,7]);
+stm_aix("p2i0","p1i0",[0,"Rheu. Journals","","",-1,-1,0,"rheu.Journals.html","_self","","","","",0,0,0,"","",0,0,0,1,1,"#11c4e2",0,"#0ca7d5",0,"","",3,3,1,1,"#E6EFF9"],180,22);
+stm_aix("p2i1","p1i0",[0,"Pediatric Rheu.","","",-1,-1,0,"images/pdf/takayasu-arteritis-in-children-and-adolescents.pdf","_blank","","","","",0,0,0,"","",0,0,0,1],180,22);
+stm_aix("p2i2","p2i1",[0,"Disease","","",-1,-1,0,"disease.html","_self"],180,22);
+stm_aix("p2i3","p2i1",[0,"Meetings","","",-1,-1,0,"","_self","","","","",0,0,0,"","",7,7],180,22);
+stm_bpx("p3","p1",[1,2]);
+stm_aix("p3i0","p1i0",[0," International","","",-1,-1,0,"#"],180,22);
+stm_aix("p3i1","p3i0",[0," Local"],180,22);
+stm_ep();
+stm_ep();
+stm_aix("p0i2","p0i1",[0,"Members"],120,54);
+stm_bpx("p4","p1",[]);
+stm_aix("p4i0","p2i2",[0,"Board Members","","",-1,-1,0,"board-members.html"],200,20);
+stm_aix("p4i1","p2i2",[0,"Educational Committee","","",-1,-1,0,"educational-committee.html"],200,0);
+stm_aix("p4i2","p2i2",[0,"Membership Package","","",-1,-1,0,"membership-package.html"],200,22);
+stm_aix("p4i3","p2i2",[0,"Sponsors","","",-1,-1,0,"#"],200,20);
+stm_ep();
+stm_aix("p0i3","p0i1",[0,"Rheumatology Society HCP"],270,54);
+stm_bpx("p5","p2",[]);
+stm_aix("p5i0","p4i3",[0,"Latest news and events"],280,22);
+stm_aix("p5i1","p2i2",[0,"Publications","","",-1,-1,0,"publications.html"],280,22);
+stm_aix("p5i2","p2i3",[0,"Education"],280,22);
+stm_bpx("p6","p3",[]);
+stm_aix("p6i0","p4i3",[0,"CME Programs"],250,22);
+stm_aix("p6i1","p4i3",[0,"Free Online Educational Links"],250,0);
+stm_ep();
+stm_aix("p5i3","p4i3",[0,"Join (Registration)"],280,22);
+stm_ep();
+stm_aix("p0i4","p0i1",[0,"Contact us"],121,54);
+stm_bpx("p7","p1",[]);
+stm_aix("p7i0","p4i3",[0,"Info"],121,22);
+stm_aix("p7i1","p0i0",[0,"Online Contact","","",-1,-1,0,"#","_self","","","","",0,0,0,"","",0,0,0,1,1,"#11c4e2",0,"#0ca7d5",0,"","",3,3,1,1,"#FFFFFF","#FFFFFF","#FFFFFF","#000066","11pt Verdana","11pt Verdana"],121,22);
+stm_aix("p7i2","p4i3",[0,"Find us"],121,22);
+stm_aix("p7i3","p4i3",[0,"Site Map"],121,22);
+stm_ep();
+stm_aix("p0i5","p0i0",[0,"بوابة المرضى","","",-1,-1,0,"#.html","_self","","","","",0,0,0,"","",0,0,0,1,1,"",0,"#11c4e2",0,"","",3,3,0,0,"#E6EFF9","#000000","#FFFFFF","#000066","12pt 'Arial','Verdana'"],140,54);
+stm_ep();
+stm_em();
+//-->
+</script>
+
+
+
+
+
+
+
+
+
+
+  
+  <!-- End Menu -->
+  </div>
+  <!-- End Menu -->
+  
+  <!-- start flash -->
+  <div class="flash">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="940" height="310" id="FlashID" title="Flash Header">
+      <param name="movie" value="../images/header.swf" />
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="9.0.45.0" />
+      <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+      <param name="expressinstall" value="../Scripts/expressInstall.swf" />
+      <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+      <!--[if !IE]>-->
+      <object type="application/x-shockwave-flash" data="../images/header.swf" width="940" height="310">
+        <!--<![endif]-->
+        <param name="quality" value="high" />
+        <param name="wmode" value="opaque" />
+        <param name="swfversion" value="9.0.45.0" />
+        <param name="expressinstall" value="../Scripts/expressInstall.swf" />
+        <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+        <div>
+          <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+        </div>
+        <!--[if !IE]>-->
+      </object>
+      <!--<![endif]-->
+    </object>
+  </div>
+<!-- end flash -->
+  
+  
+  <!-- Start icons -->
+  <div class="icons">
+    <div class="icon">
+      <div class="left-icon"></div>
+      <div class="title-icon">HEALTH CENTER</div>
+      <div class="content-icons"></div>
+      <div class="more-icons"><img src="../images/more.gif" width="83" height="23" alt="more" /></div>
+    </div>
+    
+<div class="line-icon"></div>
+    <div class="icon">
+      <div class="left-icon"></div>
+      <div class="title-icon">LIVING WITH RHEUMATIC DISEASES</div>
+      <div class="content-icons">Vaccinations in patients with immune-mediated<br />
+      inflammatory diseases..</div>
+      <div class="more-icons"><a href="../images/pdf/Vaccinations-in-patients-with-immune-mediated.pdf" target="_blank"><img src="../images/more.gif" alt="more" width="83" height="23" border="0" /></a></div>
+    </div>
+    <div class="line-icon"></div>
+    <div class="icon">
+      <div class="left-icon"></div>
+      <div class="title-icon">DRUG NEWS</div>
+      <div class="content-icons">Clinical Implications for<br />
+      Rheumatologists,<br />
+      Gastroenterologists, ..</div>
+      <div class="more-icons"><a href="../images/pdf/BSR-and-BHPR-rheumatoid-arthritis-guidelines-on-safety-of-anti-TNF-therapies.pdf" target="_blank"><img src="../images/more.gif" alt="more" width="83" height="23" border="0" /></a></div>
+    </div>
+    <div class="line-icon"></div>
+    <div class="icon">
+      <div class="left-icon"></div>
+      <div class="title-icon">LAB TEST</div>
+      <div class="content-icons"></div>
+      <div class="more-icons"><img src="../images/more.gif" width="83" height="23" alt="more" /></div>
+    </div>
+  </div>
+  <!-- End icons -->
+  
+  <!-- Start left-box -->
+  <div class="left-box">
+    <div class="left-box-top">
+      <div class="left-box-top-title">GUIDELINES</div>
+      <div class="left-box-top-title"><a href="../images/pdf/BSR-and-BHPR-guidelines-for-the-management-of-polymyalgia-rheumatica.pdf" target="_blank" class="guidelines-link">-BSR and BHPR guidelines for the<br />
+       management of
+polymyalgia rheumatica.</a></div>
+<div class="left-box-top-title"><a href="../images/pdf/BSR-and-BHPR-rheumatoid-arthritis-guidelines-on-safety-of-anti-TNF-therapies.pdf" target="_blank" class="guidelines-link">-BSR and BHPR rheumatoid arthritis guidelines on safety of anti-TNF therapies.</a></div>
+    </div>
+    <div class="left-box-down">
+      <div class="left-box-top-content">
+        <div class="left-box-top-title">DRUG NEWS</div>
+        <div class="left-box-top-title"><a href="../images/pdf/Biologics-Monograph.pdf" target="_blank" class="guidelines-link">-Biologic Therapies:<br />
+          Clinical Implications for<br />
+          Rheumatologists,<br />
+          Gastroenterologists,Allied Health
+        Practitioners.</a></div>
+      </div>
+      <div class="left-box-down-content">
+        <div class="follow-us-txt">Join Us On:</div>
+        <div class="icon-follow"><a href="#"><img src="../images/facebook.jpg" alt="FaceBook" width="34" height="34" border="0" title="Facebook" /></a></div>
+        <div class="icon-follow"><a href="#"><img src="../images/youtube.jpg" alt="YouTube" width="34" height="34" border="0" title="YouTube" /></a></div>
+        <div class="icon-follow"><a href="#"><img src="../images/twitter.jpg" alt="Twitter" width="34" height="34" border="0" title="Twitter" /></a></div>
+      </div>
+    </div>
+  </div>
+  <!-- End left-box -->
+  
+  <!-- Start middle-box --><!-- TemplateBeginEditable name="content" -->
+  <div class="middle-box">
+    <div class="middle-box-content">
+      <div class="middle-box-title"></div>
+      <div class="middle-box-pic"></div>
+    </div>
+  </div>
+  <!-- TemplateEndEditable --><!-- End middle-box -->
+  
+  <!-- Start right-box -->
+  
+  <!-- end right-box --
+  <!-- Start logos -->
+  <div class="logos"></div>
+  <!-- End logos -->
+  
+  <!-- Start footer -->
+  <div class="footer">
+    <div class="footer-links">
+      <div class="main-link-footer">Aboutus</div>
+      <div class="sub-link-footer"><a class="sub-link-footer-click" href="../welcome-message.html">Welcome Message</a></div>
+      <div class="sub-link-footer"><a class="sub-link-footer-click" href="../mission-vission.html">Vision and Mission</a></div>
+    </div>
+    <div class="line-footer"></div>
+    <div class="footer-links">
+      <div class="main-link-footer">Rheumatology</div>
+      <div class="sub-link-footer"><a class="sub-link-footer-click" href="#">Rheu. Journals</a></div>
+      <div class="sub-link-footer"><a href="../images/pdf/takayasu-arteritis-in-children-and-adolescents.pdf" target="_blank" class="sub-link-footer-click">Pediatric Rheu.</a></div>
+      <div class="sub-link-footer"><a class="sub-link-footer-click" href="#">Disease</a></div>
+      <div class="sub-link-footer"><a class="sub-link-footer-click" href="#">Meeting International</a></div>
+      <div class="sub-link-footer"><a class="sub-link-footer-click" href="#">Meetings Local</a></div>
+    </div>
+    <div class="line-footer"></div>
+    <div class="footer-links">
+      <div class="main-link-footer">Members</div>
+      <div class="sub-link-footer"><a class="sub-link-footer-click" href="../board-members.html">Board Members</a></div>
+      <div class="sub-link-footer"><a class="sub-link-footer-click" href="../educational-committee.html">Educational Committee</a></div>
+      <div class="sub-link-footer"><a class="sub-link-footer-click" href="../membership-package.html">Membership Package</a></div>
+      <div class="sub-link-footer"><a class="sub-link-footer-click" href="#">Sponsors</a></div>
+    </div>
+    <div class="line-footer"></div>
+    <div class="footer-links">
+      <div>
+        <div class="main-link-footer">Rheumatology Society HCP</div></div>
+        <div class="sub-link-footer"><a class="sub-link-footer-click" href="../news-and-events.html">Latest news and events</a></div>
+      <div class="sub-link-footer"><a class="sub-link-footer-click" href="../publications-old.html">Publications</a></div>
+        <div class="sub-link-footer"><a class="sub-link-footer-click" href="#">Join (Registration)</a></div>
+    </div>
+    <div class="line-footer"></div>
+    <div class="footer-links">
+      <div>
+        <div class="main-link-footer">Contact Us</div></div>
+        <div class="sub-link-footer"><a class="sub-link-footer-click" href="#">Info</a></div>
+        <div class="sub-link-footer"><a class="sub-link-footer-click" href="#">Online contact</a></div>
+        <div class="sub-link-footer"><a class="sub-link-footer-click" href="#">Find Us</a></div>
+        <div class="sub-link-footer"><a class="sub-link-footer-click" href="#">Site Map</a></div>
+    </div>
+    
+    <div class="copyright">Copyright ©2010 Saudi Society of Rheumatology . All Rights Reserved.</div>
+    
+  </div>
+  
+  
+  
+<!-- end footer -->
+  
+  
+  
+<!-- End Wrapper -->
+
+</div>
+<script type="text/javascript">
+<!--
+swfobject.registerObject("FlashID");
+//-->
+</script>
+</body>
+</html>

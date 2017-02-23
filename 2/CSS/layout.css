@@ -1,0 +1,35 @@
+#wrapper {
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.body {
+	margin: 0px;
+	background-color: #FFF;
+}
+.login {
+	float: right;
+	background-color: #0FF;
+	width: 100px;
+}
+#flash_header {
+	height: 310px;
+	background-color: #000;
+}
+#4_icons {
+	width: 940px;
+	height: 151px;
+}
+.icon {
+	float: left;
+	width: 235px;
+	height: 151px;
+}
+.header {
+	background-color: #CCC;
+	height: 100px;
+}
+.menu {
+	background-color: #666;
+	height: 50px;
+}
